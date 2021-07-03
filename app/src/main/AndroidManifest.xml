@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codesmashers.doodle">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_pencil"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_pencil"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.codesmashers.doodle.SplashActivity"
+            android:theme="@style/FullScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.codesmashers.doodle.WaitingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codesmashers.doodle.joinRoom.RoomListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codesmashers.doodle.GameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.codesmashers.doodle.auth.AuthActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.codesmashers.doodle.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

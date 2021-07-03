@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/FullScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d4fa9"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/spname"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       app:layout_constraintBottom_toTopOf="@id/made_with"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/spname"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="pencil.json"
+        app:lottie_loop="false" />
+    <TextView
+        android:id="@+id/made_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Built With "
+        android:gravity="center"
+       android:textColor="@color/white"
+        android:textSize="18sp"
+        app:drawableEndCompat="@drawable/ic_baseline_favorite_24"
+       app:layout_constraintBottom_toTopOf="@id/made_with_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/made_with_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/thelazypeople"
+        android:textColorLink="@color/white"
+        android:fontFamily="@font/arbutus"
+        android:textSize="18sp"
+        android:foregroundGravity="center"
+        android:layout_marginBottom="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

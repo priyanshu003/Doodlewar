@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "690562252358",
+    "project_id": "doodle-a600f",
+    "storage_bucket": "doodle-a600f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690562252358:android:c1a3815aaa7d0fdecc1447",
+        "android_client_info": {
+          "package_name": "com.codesmashers.doodle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690562252358-hqr09l06nuf1f0hq2fle709re53rebld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codesmashers.doodle",
+            "certificate_hash": "ae057ccfc5c94a6b883d61d91e50bc7d45563916"
+          }
+        },
+        {
+          "client_id": "690562252358-tm5qmemukv74su17edvvecvk4btldsks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfLAXP87e1T3dkVu6yjY2YDgG0ZzJAmp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690562252358-tm5qmemukv74su17edvvecvk4btldsks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

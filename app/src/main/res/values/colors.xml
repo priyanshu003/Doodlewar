@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#A9D7E1</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorText">#FA847B</color>
+    <color name="colorHint">#BE9592</color>
+
+    <color name="Green">#0D7612</color>
+    <color name="DarkGreen">#0F5C53</color>
+    <color name="BluePopsicle">#0f2862</color>
+    <color name="Redline">#9e363a</color>
+    <color name="PurpleShadow">#091f36</color>
+    <color name="GreyBlueLeaf">#4f5f76</color>
+
+    <!--<color name="Apricot">#F7882F</color>
+    -->
+    <color name="white">#FFFFFF</color>
+    <color name="Apricot">#F9A826</color>
+    <color name="heading">#0B7289</color>
+    <color name="LittleTransparent">#99000000</color>
+    <color name="yellow">#ffc107</color>
+    <color name="lightBackground">#EBF6F2</color>
+    <color name="wavyBlue">#A9D7E1</color>
+    <color name="black">#000</color>
+</resources>
