@@ -8,11 +8,11 @@ Use the Doodle war to draw on the screen while the app tracks and displays the s
 In the multiplayer mode, one player is selected as the artist, he is offered three words to choose from and his task is to draw the selected word. Other players try to guess what the artist is drawing. The winner is the player who first guesses the correct word.
 
 ## APPLICATION DISPLAY  :eyes:	
-<kbd><img src="Screenshots/4.png" width=300></kbd>
-<kbd><img src="Screenshots/5.png" width=300></kbd>
-<kbd><img src="Screenshots/6.png" width=300></kbd>
-<kbd><img src="Screenshots/7.png" width=300></kbd>
-<kbd><img src="Screenshots/8.png" width=300></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/68162762/166705465-1dc85f10-8573-4bcd-a97e-281484aaa662.png" width=300></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/68162762/166705494-88bd7499-a545-49b0-a8ba-d4bc998cba59.png" width=300></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/68162762/166705524-abf476c0-0659-4608-8941-574c085d9497.png" width=300></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/68162762/166705560-cae50736-f4b4-47e3-a066-2deb9d08b608.png" width=300></kbd>
+<kbd><img src="https://user-images.githubusercontent.com/68162762/166705589-8d54404f-cca6-4de3-9f68-97939aa1399e.png" width=300></kbd>
 
 ## Getting Started :+1:
 
